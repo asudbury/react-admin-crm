@@ -1,16 +1,25 @@
 {
-  "name": "react-admin-showcase",
+  "name": "react-admin-crm",
+  "homepage": "http://asudbury.github.io/react-admin-crm",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/bar": "^0.74.0",
+    "@nivo/core": "^0.74.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@types/react-dom": "^17.0.10",
+    "date-fns": "^2.25.0",
+    "faker": "^5.5.3",
+    "ra-data-fakerest": "^3.19.0",
+    "ra-data-json-server": "^3.19.0",
     "react": "^17.0.2",
+    "react-admin": "^3.19.0",
+    "react-beautiful-dnd": "^13.1.0",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
@@ -39,5 +48,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.9",
+    "@types/lodash": "^4.14.176",
+    "@types/react-beautiful-dnd": "^13.1.2",
+    "@types/react-router-dom": "^5.3.1"
   }
 }
