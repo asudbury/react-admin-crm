@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-admin-crm/static/js/main.11e2a81f.js",
+    "main.js": "/react-admin-crm/static/js/main.b8e18a92.js",
     "index.html": "/react-admin-crm/index.html",
-    "main.11e2a81f.js.map": "/react-admin-crm/static/js/main.11e2a81f.js.map"
+    "main.b8e18a92.js.map": "/react-admin-crm/static/js/main.b8e18a92.js.map"
   },
   "entrypoints": [
-    "static/js/main.11e2a81f.js"
+    "static/js/main.b8e18a92.js"
   ]
 }
