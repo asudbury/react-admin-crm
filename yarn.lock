@@ -9577,10 +9577,10 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^5.5.3, ra-core@^5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.5.4.tgz#5a9fe2133386fad06da952c35189b725ef3a6121"
-  integrity sha512-CgbhXOflN/tMnW6zgTGoTFm5tn+Wl196cRYcQnUuxiPuVei316lTu1/N0tCrohrqFTRcUsfz3upECQRX3IfYjg==
+ra-core@^5.5.3, ra-core@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.6.0.tgz#7e543c10c47f8c77000c1b1a211e043c0865f286"
+  integrity sha512-rYOr+JOm7l1yN+tlflR8zKpZYpY8tdn13/+gRPsH+CFlLRHIAcdUsXJ4/sacWwcUOGybcwAnPy4uEXZo+Xey2g==
   dependencies:
     "@tanstack/react-query" "^5.21.7"
     clsx "^2.1.1"
@@ -9608,25 +9608,25 @@ ra-data-json-server@^5.5.3:
     query-string "^7.1.3"
     ra-core "^5.5.3"
 
-ra-i18n-polyglot@^5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-5.5.4.tgz#b664c2cf36800e18209b088a28545b71cf669206"
-  integrity sha512-4Bt6nK2zUbID1GYKzPPlISzn8a+WgneXmZgB5ZGTXSs/TKW0tbJKnkRmWxtJ/8lv06/Y5Jc9IyGT+1K2ak3TbA==
+ra-i18n-polyglot@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-5.6.0.tgz#48a3356169f0c208554b1aa1cda2eaa2cb3ae296"
+  integrity sha512-QEQ4NoH9WIT1KL8tZqIkvpod5gYOpf3qaiMwXFluFgCXxnVw6FpyZs6SJ9/I5Yx1stSgWuonZZiSJON5fybZWg==
   dependencies:
     node-polyglot "^2.2.2"
-    ra-core "^5.5.4"
+    ra-core "^5.6.0"
 
-ra-language-english@^5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-5.5.4.tgz#1bb8bf8711717b56de6e6cd9520014cb6f52b5ec"
-  integrity sha512-0ghzPEaqIr5r9FWyKHMoW6hfX23UaH5yl2S3dqU57O/HjrL4b7RQ7MYMDC+De6CQsoMQ2kJRu4MhmfkzblCfvQ==
+ra-language-english@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-5.6.0.tgz#066ac5a1f9c4e077bdda6fa8c7d622aab5747571"
+  integrity sha512-UfjhTuaDLbuWdULHOXxZrMcMebzkCsDAdsuxP3de/+bEcptde1TTLyanhm4rJsVJ094ljgzc0fk/EtO3o/+klA==
   dependencies:
-    ra-core "^5.5.4"
+    ra-core "^5.6.0"
 
-ra-ui-materialui@^5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-5.5.4.tgz#e7d964ba9dbbed07e3a5ea0837121cb270ee977a"
-  integrity sha512-jZWuYajGmViI+S4g5U9PBRmudY3+BFPool2VKZ/GYdoc84Mqgik4EV8vc71phXfBLvOO1zgfjrpZFlBY4i4lMw==
+ra-ui-materialui@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-5.6.0.tgz#45e887a91b00fbfbfd1a5493c561fc96c46d242a"
+  integrity sha512-j88IDWl+fiLKByqI+DyBQhkMZloOP4uoxHzB2GnbDWx6WXdB4lAJTduPdVxl5sYT/bE522Sm43/mWHjG+oCujA==
   dependencies:
     "@tanstack/react-query" "^5.21.7"
     autosuggest-highlight "^3.1.1"
@@ -9675,19 +9675,19 @@ raw-body@2.5.2:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-admin@^5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-5.5.4.tgz#78c41724432a721040fc3262688f5a7721f61f07"
-  integrity sha512-Yrf36W1yboRmZ6ilChEC+RM4H3t9RCTFFlcdKub1SsI1uBpig1D5OIHcq1DeHiTKtH3PbqLu2ZKkx8ItzbRsIw==
+react-admin@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-5.6.0.tgz#33a218776e5c1469f0ec9e85f48bb20fa6f0c6d1"
+  integrity sha512-OxFCuYafYASyA6Tz7aHkmbq9BOghk8n0ovs6/fkIldy1H0RoRiMEmeXfwIVYm8LsIWJtrGMy3UaRV2FWbqqxeg==
   dependencies:
     "@emotion/react" "^11.14.0"
     "@emotion/styled" "^11.14.0"
     "@mui/icons-material" "^5.16.12 || ^6.0.0"
     "@mui/material" "^5.16.12 || ^6.0.0"
-    ra-core "^5.5.4"
-    ra-i18n-polyglot "^5.5.4"
-    ra-language-english "^5.5.4"
-    ra-ui-materialui "^5.5.4"
+    ra-core "^5.6.0"
+    ra-i18n-polyglot "^5.6.0"
+    ra-language-english "^5.6.0"
+    ra-ui-materialui "^5.6.0"
     react-hook-form "^7.53.0"
     react-router "^6.28.1 || ^7.1.1"
     react-router-dom "^6.28.1 || ^7.1.1"
