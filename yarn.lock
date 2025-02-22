@@ -9593,10 +9593,10 @@ ra-core@^5.5.3, ra-core@^5.6.0:
     react-error-boundary "^4.0.13"
     react-is "^18.2.0 || ^19.0.0"
 
-ra-data-fakerest@^5.6.0:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/ra-data-fakerest/-/ra-data-fakerest-5.6.0.tgz#00f1cc046b343c0f22444168fdc8988559c880bb"
-  integrity sha512-GKP6srOno0Vvd4apEYM9+NLYkrz9QHUv2Sj9Tu5eeqfIGfO9mTmsox9SrbEYHvZJFjNwdCOnnT3rSvrrX7FBHg==
+ra-data-fakerest@^5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/ra-data-fakerest/-/ra-data-fakerest-5.6.1.tgz#82cd073baae7621e399c15145055af5e838b3c91"
+  integrity sha512-FQfkLrwfwb3mMQl8jdLFxmrSz10PNk0b2ZcjPIpq7OVshcPoy3a9hOxdnZLaj3XliAT1usro/KPOE/sKbBmNLg==
   dependencies:
     fakerest "^4.0.1"
 
