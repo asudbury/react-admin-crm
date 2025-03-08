@@ -18,7 +18,7 @@
     "ra-data-fakerest": "^5.6.2",
     "ra-data-json-server": "^5.6.3",
     "react": "^17.0.2",
-    "react-admin": "^5.6.2",
+    "react-admin": "^5.6.3",
     "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.1",
