@@ -12,7 +12,7 @@
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.14",
     "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.10",
+    "@types/react-dom": "^19.0.4",
     "date-fns": "^4.1.0",
     "faker": "^6.6.6",
     "ra-data-fakerest": "^5.7.0",
@@ -20,7 +20,7 @@
     "react": "^17.0.2",
     "react-admin": "^5.7.0",
     "react-beautiful-dnd": "^13.1.1",
-    "react-dom": "^17.0.2",
+    "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
     "typescript": "^5.8.2",
     "web-vitals": "^1.0.1"
