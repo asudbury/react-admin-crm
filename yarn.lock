@@ -9404,10 +9404,10 @@ ra-core@^5.7.1:
     react-error-boundary "^4.0.13"
     react-is "^18.2.0 || ^19.0.0"
 
-ra-data-fakerest@^5.7.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/ra-data-fakerest/-/ra-data-fakerest-5.7.0.tgz#53f0ec941e6da71bf739a8de566136972b6aba83"
-  integrity sha512-Q3oOMuilrGWJ+52uRxOGy2cIPa5pNVDr6h0sXssexDdj5PGJ3ktYHWHJaj5tMHxvnulqTQe+dMA09VayTB344w==
+ra-data-fakerest@^5.7.1:
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/ra-data-fakerest/-/ra-data-fakerest-5.7.1.tgz#af635860c14ad55f81570f3483c93498c1ac1103"
+  integrity sha512-U5qB24TUy9gYI0l0cJdFadrilz+9DM5ncH5rmD+3oggfClL3amlQCO29X9DM1m8PJ4wkiEznwi/PBU9VpOWc3g==
   dependencies:
     fakerest "^4.0.1"
 
