@@ -9388,7 +9388,7 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^5.7.2, ra-core@^5.7.3:
+ra-core@^5.7.3:
   version "5.7.3"
   resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.7.3.tgz#4b330b5da71ed952d97deb9ea5a2594eb96680b8"
   integrity sha512-efPFdUnrLpERy0IuonvVS2LxYhNr9q+WrFNtDn+AZiPLqM8z+4zP+66lEHch6zmZR+jJWzR3Jo/8L01cuvPVnA==
@@ -9404,10 +9404,10 @@ ra-core@^5.7.2, ra-core@^5.7.3:
     react-error-boundary "^4.0.13"
     react-is "^18.2.0 || ^19.0.0"
 
-ra-data-fakerest@^5.7.2:
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/ra-data-fakerest/-/ra-data-fakerest-5.7.2.tgz#99b7ceb7cd930ecf83eb4aeed7cc7f58460c7826"
-  integrity sha512-7WZVk3Q2/d7tLuiv9YGpMX+iE23rmlONuc46XRcOAcyBA00ShhCg7HJcs5nQsN66R5mWUPUyIJ64R9tfbc7stw==
+ra-data-fakerest@^5.7.3:
+  version "5.7.3"
+  resolved "https://registry.yarnpkg.com/ra-data-fakerest/-/ra-data-fakerest-5.7.3.tgz#0e7a49c58b0aaceb0f2149b142f72fbf206470d8"
+  integrity sha512-9rjrwsqx6s8ABjqSYsOtuRZEjQ6/YMqcRfDVa3PiereZQC6RweBm3S2JyW1Pjy+qVTFJaeEXPqTa9A8ReZ75eA==
   dependencies:
     fakerest "^4.0.1"
 
