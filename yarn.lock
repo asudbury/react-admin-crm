@@ -6734,9 +6734,9 @@ http-proxy-agent@^4.0.1:
     debug "4"
 
 http-proxy-middleware@^2.0.3:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-2.0.7.tgz#915f236d92ae98ef48278a95dedf17e991936ec6"
-  integrity sha512-fgVY8AV7qU7z/MmXJ/rxwbrtQH4jBQ9m7kp3llF0liB7glmFeVZFBepQb32T3y8n8k2+AEYuMPCpinYW+/CuRA==
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-2.0.9.tgz#e9e63d68afaa4eee3d147f39149ab84c0c2815ef"
+  integrity sha512-c1IyJYLYppU574+YI7R4QyX2ystMtVXZwIdzazUIPIJsHuWNd+mho2j+bKoHftndicGj9yh+xjd+l0yj7VeT1Q==
   dependencies:
     "@types/http-proxy" "^1.17.8"
     http-proxy "^1.18.1"
@@ -9388,7 +9388,7 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^5.7.2, ra-core@^5.7.3:
+ra-core@^5.7.3:
   version "5.7.3"
   resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.7.3.tgz#4b330b5da71ed952d97deb9ea5a2594eb96680b8"
   integrity sha512-efPFdUnrLpERy0IuonvVS2LxYhNr9q+WrFNtDn+AZiPLqM8z+4zP+66lEHch6zmZR+jJWzR3Jo/8L01cuvPVnA==
