@@ -2658,25 +2658,7 @@
     d3-scale-chromatic "^3.0.0"
     lodash "^4.17.21"
 
-"@nivo/core@0.88.0", "@nivo/core@^0.88.0":
-  version "0.88.0"
-  resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.88.0.tgz#ec79c7d63311473f15a463fd78274d9971a52848"
-  integrity sha512-XjUkA5MmwjLP38bdrJwn36Gj7T5SYMKD55LYQp/1nIJPdxqJ38dUfE4XyBDfIEgfP6yrHOihw3C63cUdnUBoiw==
-  dependencies:
-    "@nivo/tooltip" "0.88.0"
-    "@react-spring/web" "9.4.5 || ^9.7.2"
-    "@types/d3-shape" "^3.1.6"
-    d3-color "^3.1.0"
-    d3-format "^1.4.4"
-    d3-interpolate "^3.0.1"
-    d3-scale "^4.0.2"
-    d3-scale-chromatic "^3.0.0"
-    d3-shape "^3.2.0"
-    d3-time-format "^3.0.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-
-"@nivo/core@0.89.1":
+"@nivo/core@0.89.1", "@nivo/core@^0.89.1":
   version "0.89.1"
   resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.89.1.tgz#21a5b46dc1faad8d94912df9a813dbe7cc4963a1"
   integrity sha512-p64RBfBNMG+yKqvX6SDi6ArvcAKgN03Y7Ek8zzgnqHd/jLmyn8P0S20zfcJXN0TmQvLeb9eYkG2hqZrlwkey7w==
@@ -2715,14 +2697,6 @@
     d3-time "^1.0.11"
     d3-time-format "^3.0.0"
     lodash "^4.17.21"
-
-"@nivo/tooltip@0.88.0":
-  version "0.88.0"
-  resolved "https://registry.yarnpkg.com/@nivo/tooltip/-/tooltip-0.88.0.tgz#b98348c0d617fea09c1bbddccc443c12ca697620"
-  integrity sha512-iEjVfQA8gumAzg/yUinjTwswygCkE5Iwuo8opwnrbpNIqMrleBV+EAKIgB0PrzepIoW8CFG/SJhoiRfbU8jhOw==
-  dependencies:
-    "@nivo/core" "0.88.0"
-    "@react-spring/web" "9.4.5 || ^9.7.2"
 
 "@nivo/tooltip@0.89.1":
   version "0.89.1"
