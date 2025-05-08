@@ -2677,13 +2677,31 @@
     d3-scale-chromatic "^3.0.0"
     lodash "^4.17.21"
 
-"@nivo/core@0.93.0", "@nivo/core@^0.93.0":
+"@nivo/core@0.93.0":
   version "0.93.0"
   resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.93.0.tgz#8b0fdaa5c0c715110c7c76cc51197a6f2fd49c61"
   integrity sha512-fuspmWaVF1SAbFYWO2sYeGvGoSHcrr2tDRn7lM+f4dPJVN5w5waHpRHTfEfKg6Q++zsXs2QEPlnhpZsG4tbE0w==
   dependencies:
     "@nivo/theming" "0.93.0"
     "@nivo/tooltip" "0.93.0"
+    "@react-spring/web" "9.4.5 || ^9.7.2"
+    "@types/d3-shape" "^3.1.6"
+    d3-color "^3.1.0"
+    d3-format "^1.4.4"
+    d3-interpolate "^3.0.1"
+    d3-scale "^4.0.2"
+    d3-scale-chromatic "^3.0.0"
+    d3-shape "^3.2.0"
+    d3-time-format "^3.0.0"
+    lodash "^4.17.21"
+
+"@nivo/core@0.94.0", "@nivo/core@^0.94.0":
+  version "0.94.0"
+  resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.94.0.tgz#d4153ac9774b9ab4f936fc285de108bdd15fb7dc"
+  integrity sha512-xkUyVm2fWLlleXlUY9dqr9jLRUj2bUfC2rpW4u0hp8OCeJSB2Yq9IZt1fAecOanoYvvB0B9BnVoxdJiOad0FZA==
+  dependencies:
+    "@nivo/theming" "0.94.0"
+    "@nivo/tooltip" "0.94.0"
     "@react-spring/web" "9.4.5 || ^9.7.2"
     "@types/d3-shape" "^3.1.6"
     d3-color "^3.1.0"
@@ -2735,6 +2753,11 @@
   resolved "https://registry.yarnpkg.com/@nivo/theming/-/theming-0.93.0.tgz#ecdae800fe6db09b2408a9074a992f7d868a26a2"
   integrity sha512-kT2Dc4bz+QXwNB3yIYQ7PwgTQ1cwSgWOBW6xWf9CAO8e4DBf0eBfmvKY0ILnYe1S083F9hxiyG4Ozhu5RagIkQ==
 
+"@nivo/theming@0.94.0":
+  version "0.94.0"
+  resolved "https://registry.yarnpkg.com/@nivo/theming/-/theming-0.94.0.tgz#dca635d16a890e730525c324f7b218cee623082f"
+  integrity sha512-d3FthcQr2Im1MYQi6mVYducrOmEspkMAqT08iJJyZVmT8uODWLOgXrMDtq0RQODQ71axtzE17rS5jMuU8wNA4A==
+
 "@nivo/tooltip@0.93.0":
   version "0.93.0"
   resolved "https://registry.yarnpkg.com/@nivo/tooltip/-/tooltip-0.93.0.tgz#c89c4a1e5e9234ee2484bbbbfec095d89b2488a8"
@@ -2742,6 +2765,15 @@
   dependencies:
     "@nivo/core" "0.93.0"
     "@nivo/theming" "0.93.0"
+    "@react-spring/web" "9.4.5 || ^9.7.2"
+
+"@nivo/tooltip@0.94.0":
+  version "0.94.0"
+  resolved "https://registry.yarnpkg.com/@nivo/tooltip/-/tooltip-0.94.0.tgz#f37c036729ba6dcfad8f7ae0799307f1a7940a45"
+  integrity sha512-vLyYN0rdq0J3/TgyZs5lmdjqb3Q+HMo5U1XBSGdLKOp/khybNGdyxR2EUL2kaSAwkK1AeQ8sbrErkQyJfRbk8Q==
+  dependencies:
+    "@nivo/core" "0.94.0"
+    "@nivo/theming" "0.94.0"
     "@react-spring/web" "9.4.5 || ^9.7.2"
 
 "@nodelib/fs.scandir@2.1.4":
