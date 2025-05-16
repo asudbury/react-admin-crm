@@ -2677,7 +2677,7 @@
     d3-scale-chromatic "^3.0.0"
     lodash "^4.17.21"
 
-"@nivo/core@0.93.0", "@nivo/core@^0.93.0":
+"@nivo/core@0.93.0":
   version "0.93.0"
   resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.93.0.tgz#8b0fdaa5c0c715110c7c76cc51197a6f2fd49c61"
   integrity sha512-fuspmWaVF1SAbFYWO2sYeGvGoSHcrr2tDRn7lM+f4dPJVN5w5waHpRHTfEfKg6Q++zsXs2QEPlnhpZsG4tbE0w==
@@ -2694,6 +2694,26 @@
     d3-shape "^3.2.0"
     d3-time-format "^3.0.0"
     lodash "^4.17.21"
+
+"@nivo/core@0.97.0", "@nivo/core@^0.97.0":
+  version "0.97.0"
+  resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.97.0.tgz#ba525bcb2001e788e8f9285b34635c67322e1cd1"
+  integrity sha512-XZVzvrnW0tkNyshthgLFINn+pDZG4SivDb23dC0hz7EfDD/TzNStHFuYE2/4g8okdi3ggQkQ7yTz/Dn+Dpyn0Q==
+  dependencies:
+    "@nivo/theming" "0.97.0"
+    "@nivo/tooltip" "0.97.0"
+    "@react-spring/web" "9.4.5 || ^9.7.2"
+    "@types/d3-shape" "^3.1.6"
+    d3-color "^3.1.0"
+    d3-format "^1.4.4"
+    d3-interpolate "^3.0.1"
+    d3-scale "^4.0.2"
+    d3-scale-chromatic "^3.0.0"
+    d3-shape "^3.2.0"
+    d3-time-format "^3.0.0"
+    lodash "^4.17.21"
+    react-virtualized-auto-sizer "^1.0.26"
+    use-debounce "^10.0.4"
 
 "@nivo/legends@0.93.0":
   version "0.93.0"
@@ -2735,6 +2755,13 @@
   resolved "https://registry.yarnpkg.com/@nivo/theming/-/theming-0.93.0.tgz#ecdae800fe6db09b2408a9074a992f7d868a26a2"
   integrity sha512-kT2Dc4bz+QXwNB3yIYQ7PwgTQ1cwSgWOBW6xWf9CAO8e4DBf0eBfmvKY0ILnYe1S083F9hxiyG4Ozhu5RagIkQ==
 
+"@nivo/theming@0.97.0":
+  version "0.97.0"
+  resolved "https://registry.yarnpkg.com/@nivo/theming/-/theming-0.97.0.tgz#4e16af86547881ded7bb6f41523c911bd61f581a"
+  integrity sha512-FLepkgeVa0IVwjaA7CPUrzY5hG72yKllRmSj+ZRl6C+ZQB2fpij7xa8IKiPvBe6uJrmODXw3/zetXo+rLC5HEw==
+  dependencies:
+    lodash "^4.17.21"
+
 "@nivo/tooltip@0.93.0":
   version "0.93.0"
   resolved "https://registry.yarnpkg.com/@nivo/tooltip/-/tooltip-0.93.0.tgz#c89c4a1e5e9234ee2484bbbbfec095d89b2488a8"
@@ -2742,6 +2769,15 @@
   dependencies:
     "@nivo/core" "0.93.0"
     "@nivo/theming" "0.93.0"
+    "@react-spring/web" "9.4.5 || ^9.7.2"
+
+"@nivo/tooltip@0.97.0":
+  version "0.97.0"
+  resolved "https://registry.yarnpkg.com/@nivo/tooltip/-/tooltip-0.97.0.tgz#4a0e69c9b139fcd9139b730a842d81636070d211"
+  integrity sha512-KLOqfS0qhKumI5Tfr/1vrb8pTEzzErsYfAZH/9sUvUh85Usrh+A99jc9EbKoXuNTylM0D3H5zXoR2IaRsBPqog==
+  dependencies:
+    "@nivo/core" "0.97.0"
+    "@nivo/theming" "0.97.0"
     "@react-spring/web" "9.4.5 || ^9.7.2"
 
 "@nodelib/fs.scandir@2.1.4":
@@ -9721,6 +9757,11 @@ react-transition-group@^4.4.5:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+react-virtualized-auto-sizer@^1.0.26:
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.26.tgz#e9470ef6a778dc4f1d5fd76305fa2d8b610c357a"
+  integrity sha512-CblNyiNVw2o+hsa5/49NH2ogGxZ+t+3aweRvNSq7TVjDIlwk7ir4lencEg5HxHeSzwNarSkNkiu0qJSOXtxm5A==
+
 react@^19.1.0:
   version "19.1.0"
   resolved "https://registry.yarnpkg.com/react/-/react-19.1.0.tgz#926864b6c48da7627f004795d6cce50e90793b75"
@@ -11141,6 +11182,11 @@ url-parse@^1.5.3:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
+
+use-debounce@^10.0.4:
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-10.0.4.tgz#2135be498ad855416c4495cfd8e0e130bd33bb24"
+  integrity sha512-6Cf7Yr7Wk7Kdv77nnJMf6de4HuDE4dTxKij+RqE9rufDsI6zsbjyAxcH5y2ueJCQAnfgKbzXbZHYlkFwmBlWkw==
 
 use-memo-one@^1.1.1:
   version "1.1.2"
